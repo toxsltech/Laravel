@@ -1,0 +1,84 @@
+.right-panel header.header {
+	background: #3FE0D0;
+}
+.bg-flat-color-3{
+	background:linear-gradient( 0deg, #3FE0D0 0%, #3FE0D0 100%);
+}
+.card-body table a.btn {
+	padding: 2px 5px !important;
+	font-size: 10px !important;
+	border-radius: 2px;
+}
+.card-body table td img{
+	width:40px;
+	height:auto;
+}
+.navbar .navbar-nav li.menu-item-has-children .sub-menu a {
+	padding: 2px 0 2px 34px!important;
+}
+.open aside.left-panel .navbar .navbar-nav li.menu-item-has-children .sub-menu {
+	top: 12px;
+}
+.form-group .help-block, .error {
+    color: #f00;
+}
+.navbar .navbar-nav li.menu-item-has-children .sub-menu a .menu-icon {
+	top: 3px;
+	text-align: left !important;
+	/* width: 25px; */
+	font-size: 10px !important;
+	left: 13px;
+}
+.btn.btn-primary, .btn.btn-success {
+	border-radius: 30px;
+	background: #3FE0D0;
+	border-color: #3FE0D0;
+	padding: 8px 21px;
+}
+.menutoggle {
+	background: linear-gradient( 0deg, #3FE0D0 0%, #09A292 100%);
+}
+.profile-text {
+	color: #fff;
+	margin-top: 9px;
+	display: inline-block;
+}
+.icon-wrap i {
+	font-size: 50px;
+}
+#profile-icon {
+    right: 13%;
+    position: absolute;
+    top: 57%;
+    font-size: 36px;
+}
+.message_frame{
+	width: 100%;
+	border: none;
+	margin: 0 auto;
+	height: 500px;
+}
+@media screen and (max-width: 768px) {
+  	#profile-icon {
+	    right: 22%;
+	    position: absolute;
+	    top: 73%;
+	    font-size: 36px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  	#profile-icon {
+	    right: 28% !important;
+	    position: absolute;
+	    top: 73%;
+	    font-size: 36px;
+	}
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+ 	#profile-icon {
+	    right: 0% !important;
+	    position: absolute;
+	    top: 23%;
+	    font-size: 28px;
+	}
+}
